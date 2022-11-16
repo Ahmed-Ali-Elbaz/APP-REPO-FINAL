@@ -31,7 +31,7 @@ pipeline {
         stage('Deploy app on GKE cluster') {
             steps {
 
-                   
+        //           
                 withCredentials([file(credentialsId: 'cluster', variable: 'serviceAcc')]){
 
                     sh """
