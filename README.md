@@ -30,7 +30,7 @@ Check infrastructure section in this Repo : https://github.com/Ahmed-Ali-Elbaz/A
 #### Jenkins :
 
 
-  - Create CICD pipeline to build and push the image of our helloworld app and integrate our pipeline with Slack.
+  - Create CICD pipeline to build and push the image of our helloworld app & deploy hello world app on GKE cluster & integrate our pipeline with Slack.
 
 
 #### Slack Notification Plugin :
