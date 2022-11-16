@@ -2,7 +2,7 @@ pipeline {
     agent {label "slave"}
 
     stages {
-
+//
         // CI Stage
         stage('Build an image from helloworld app') {
             steps {
