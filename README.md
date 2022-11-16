@@ -15,7 +15,7 @@ I'm a DevOps Engineer...
 
 This Repo contains Pipeline section of the CICD Pipeline project I'm gonna explain CICD stages (fetch the code changes from github & build and push image to dockerhub & deploy hello world node.js app on GKE cluster & send notifications to slack channel).
 
-Check infrastructure section in this Repo : https://github.com/Ahmed-Ali-Elbaz/APP-REPO-FINAL
+Check infrastructure section in this Repo : https://github.com/Ahmed-Ali-Elbaz/INFRA-REPO-FINAL
 
 
 ## Tools & Plugins
