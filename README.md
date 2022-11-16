@@ -11,7 +11,7 @@ I'm a DevOps Engineer...
 # CICD Pipeline helloworld nodejs app using /Docker/Jenkins/Terraform/GKE with Slack Notification. (APP-REPO)
 
 
-![image](https://drive.google.com/uc?export=view&id=1vNK0buu03V9hO3oijtRiJXJLuusy2WSZ)
+![image](https://drive.google.com/uc?export=view&id=1mnqo08W50zVrZUq9SJvqk2B1RTMc-TRy)
 
 
 ## Demo
