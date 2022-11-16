@@ -51,14 +51,25 @@ pipeline {
 
             
         }     
-   
 
-   
-   
-        
-        
-        
-        
-        
     }
+
+    // Slack Notifications
+        post {
+
+            failure {
+
+                slackSend (channel:"helloworldapp", color:"#FF0000", message:"FAILD: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+            }
+
+            success {
+
+                slackSend (channel:"helloworldapp", color:"#00FF00", message:"SUCCEEDED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+
+            }
+
+        }  
+
+
+
 }
