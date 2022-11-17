@@ -37,7 +37,7 @@ pipeline {
                     sh """
 
                             gcloud auth activate-service-account --key-file="$serviceAcc"
-                            gcloud container clusters get-credentials private-cluster --zone us-central1-a --project wired-sol-367809 
+                            gcloud container clusters get-credentials private-cluster --zone us-central1-a --project wired-sol-367809
                             sed -i 's/tagversion/${env.BUILD_NUMBER}/g' Deployment/app.yaml
                             kubectl apply  -f Deployment
 
