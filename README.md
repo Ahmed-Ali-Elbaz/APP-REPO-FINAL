@@ -10,7 +10,7 @@ I'm a DevOps Engineer...
 # CICD Pipeline helloworld nodejs app using /Docker/Jenkins/Terraform/GKE with Slack Notification. (APP-REPO)
 
 
-![image](https://drive.google.com/uc?export=view&id=1pPsHfDcJORYH6V9Mkl8g7VTuWtcjy-ZK)
+![image](https://drive.google.com/uc?export=view&id=1qQR7wPd1ZI1MnPZbarEP8g6wJEgf2-mH)
 ## Demo
 
 This Repo contains Pipeline section of the CICD Pipeline project I'm gonna explain CICD stages (fetch the code changes from github & build and push image to dockerhub & deploy hello world node.js app on GKE cluster & send notifications to slack channel).
